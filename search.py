@@ -12,7 +12,7 @@ def find_files_with_content(root_path, text):
                 print(f"No se pudo leer el archivo {file_path}: {e}")
 
 # Reemplaza '/' con el directorio raíz si es necesario
-root_search_path = '/'
-search_text = '0x'
+root_search_path = '/Users/andy/Projects/search-py/'
+search_text = '0x01'
 
 find_files_with_content(root_search_path, search_text)
